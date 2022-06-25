@@ -1,0 +1,16 @@
+.story:hover{
+                transform: scale(1.07);
+
+}
+.story .story_avatar{
+                margin: 10px;
+                border: 3px solid #2381fa;
+}
+.story h4{
+                position: absolute;
+                bottom: 10px;
+                left: 20px;
+                color: #fff;
+                font-size: 13px;
+                font-weight: normal;
+}

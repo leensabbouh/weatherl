@@ -1,0 +1,42 @@
+@media (max-width:1000px){
+                .header_right .right_icon{
+                                display: none;
+                }
+}
+@media (max-width:900px){
+                .rightsidebar{
+                                display: none;
+                }
+                .sidebar{
+                                display: none;
+                }
+                #ff{
+                                padding: 0px ;
+                                width: 100%;
+                }
+
+}
+@media (max-width:768px){
+                .header_left .header_search input{
+                                display: none;
+                }
+                .messagesender #bottom{
+                                display:none;
+                }
+}
+@media (max-width:650px){
+                .header_middle{
+                                display: none;
+                }
+}
+@media (max-width:350px){
+                .modal_pop{
+                                width: 300px;
+                                height: 100%;
+                }
+                .modal_pop .modal_footer {
+                                display: block;
+                }
+                
+}
+

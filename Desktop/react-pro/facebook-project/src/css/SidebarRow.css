@@ -1,0 +1,15 @@
+.SidebarRow{
+                display: flex;
+                padding: 5px;
+                align-items: center;
+                cursor: pointer;
+}
+.SidebarRow p{
+                margin-left: 10px;
+                font-weight: bold;
+                font-size: 14px;
+}
+.SidebarRow:hover{
+                background-color: rgb(211 211 211/31% );
+                border-radius: 10px;
+}

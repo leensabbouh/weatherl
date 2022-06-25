@@ -1,0 +1,79 @@
+.header{
+                display: flex;
+                padding: 15px 20px;
+                background-color: #fff;
+                position: sticky;
+                top: 0;
+                z-index: 100;
+                justify-content: space-between;
+                box-shadow: 0px 5px 8px -9px #ccc;
+}
+.header_left{
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+}
+.header_left img{
+                height: 40px;
+}
+.header_left .header_search{
+                display: flex;
+                align-items: center;
+                background-color: whitesmoke;
+                border-radius: 20px;
+                padding: 0px 10px;
+                height: 40px;
+                margin-left: 20px;
+
+}
+.header_left .header_search input{
+               border: 0;
+               outline-width: 0;
+               background-color: transparent;
+               min-width: 200px;
+
+}
+.header_middle{
+                display: flex;
+                flex: 1;
+                align-items: center;
+                justify-content: center;
+}
+.header_middle .header_option{
+                padding: 0px 30px;
+                cursor: pointer;
+                color: gray;
+}
+.header_middle .header_option:hover{
+                border-radius: 10px;
+                background-color: whitesmoke;
+                color: #2381fa;
+}
+.header_middle .active{
+                color:#2381fa;
+                border-bottom: 4px solid #2381fa;
+}
+.header_right{
+                display: flex;
+                align-items: center;
+}
+.header_right .header_info{
+                display: flex;
+                align-items: center;
+}
+.header_right .header_info h5{
+                margin-right: 20px;
+}
+.header_right .header_info .MuiAvatar-root{
+                width: 30px;
+                height: 30px;
+                margin: 10px;
+
+}
+.header_right .MuiButtonBase-root{
+                height: 40px;
+                width: 40px;
+                margin: 0px 5px;
+                background-color: whitesmoke;
+                color: #000;
+}

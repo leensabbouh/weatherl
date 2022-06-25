@@ -1,0 +1,71 @@
+.storyreel{
+                width: 100%;
+}
+.inner{
+                display: flex;
+                padding: 20px;
+                
+}
+.carousel{
+
+                cursor: grab;
+                padding-bottom: 10px;
+                overflow: hidden;
+                
+}
+
+.story, .input_story{
+                position: relative;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                min-width: 120px;
+                height: 200px;
+                box-shadow: 0px 5px 17px 7px rgb(0,0,0,0.75);
+                margin: 0px 5px;
+                transition: all0.2 linear 0s;
+                border-radius: 10px;
+                cursor: pointer;
+                overflow: hidden;
+}
+.storyreel .input_story {display: flex;
+                justify-content: center;
+                background-color: white;
+
+}
+.storyreel .input_story img{
+                width:100%;
+                height: 60%;
+                top:0;
+                left: 0;
+                position: relative;
+                display: block;
+
+}
+.storyreel .input_story button{
+                background-color: #1778f2;
+                border-radius: 50%;
+                border: 2px solid white;
+                outline: 0;
+                color: white;
+                height:40px;
+                width: 40px;
+                font-size: 40px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                top: 50%;
+                
+}
+.storyreel .input_story h2{
+                top: 80%;
+                left: 10%;
+                position: absolute;
+                font-size: 18px;
+}
+.storyreel .input_story:hover button{
+                transform: scale(1.07);
+                cursor: pointer;
+                
+                
+}
